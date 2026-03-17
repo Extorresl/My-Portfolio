@@ -1,0 +1,20 @@
+# Usamos una versión de Node estable y ligera
+FROM node:18-alpine
+
+# Directorio de trabajo dentro del contenedor
+WORKDIR /app
+
+# Copiamos solo los archivos de dependencias para aprovechar el caché de Docker
+COPY package*.json ./
+
+# Instalamos las dependencias (esto solo se repite si cambias el package.json)
+RUN npm install
+
+# Copiamos el resto del código
+COPY . .
+
+# Exponemos el puerto que usa React por defecto
+EXPOSE 3000
+
+# Comando para arrancar en modo desarrollo con Hot Reload
+CMD ["npm", "start"]
