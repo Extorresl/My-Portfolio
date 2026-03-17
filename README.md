@@ -41,7 +41,8 @@ Este proyecto fue construido con el stack:
 - **🐳 Dockerized:** Configuración lista para desarrollo y producción.
 - **📱 Responsividad Total:** Optimizado para móviles, tablets y escritorio.
 - **🎨 Fácil Personalización:** Estructura de componentes modular.
-Basado en el proyecto original de [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio).
+- **💻🌐 Proyecto en vivo:** https://extorresl.github.io/My-Portfolio/
+- **🕵🏼 Basado en el proyecto original de:** [Soumyajit Behera](https://github.com/soumyajit4419/Portfolio).
 
 ## 🏁 Inicio Rápido
 
